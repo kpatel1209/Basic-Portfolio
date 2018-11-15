@@ -1,0 +1,13 @@
+body {
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: url("../images/congruent_outline.png");
+    color: white;
+}
+
+.master-header {
+    width: 100%;
+    position: fixed;
+    background: gray;
+
+}
