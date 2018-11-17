@@ -26,7 +26,7 @@ body {
     display: inline;
     background: #4aaaa5;
     color: white;
-    width: 200px;
+    width: 225px;
     text-align: center;
     padding: 27px 0 27px 0;
     margin: 0 0 0 -7px;
@@ -80,12 +80,72 @@ nav a{
     margin-right: 20px;
 }
 
-footer {
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     margin-top: 30px;
     width: 100%;
     border-top: 10px;
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+}
 
+.image1{
+    position: relative;
+}
+
+.hangman {
+    border: 1px solid #cccccc;
+}
+
+#hangman {
+    position: absolute;
+    bottom: 505px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.image2{
+    position: relative;
+    left: 330px;
+    bottom: 233px;
+}
+
+.RPG {
+    border: 1px solid #cccccc;    
+}
+
+#RPG {
+    position: absolute;
+    bottom: 42px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.image3{
+    position: relative;
+    bottom: 215px;
+
+}
+
+.trivia-game {
+    border: 1px solid #cccccc;
+}
+
+#trivia-game {
+    position: absolute;
+    bottom: 40px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
 }
