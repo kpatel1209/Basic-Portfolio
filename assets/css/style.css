@@ -10,6 +10,8 @@ body {
     box-sizing: border-box;
 }
 
+/*header*/
+
 .main-header {
     position: fixed;
     z-index: 2;
@@ -33,10 +35,6 @@ body {
     margin: 0 0 0 -7px;
 }
 
-h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
 .logo .name {
     padding: 8px 0 0 0;  
 }
@@ -53,6 +51,10 @@ nav a{
     color: #777777;
     text-decoration: none;
     margin: 0 0 0 30px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .container {
@@ -72,6 +74,8 @@ nav a{
     margin-top: 130px;
 }
 
+/*about*/
+
 .content {
     padding: 30px;
 }
@@ -80,6 +84,8 @@ nav a{
     float: left;
     margin-right: 20px;
 }
+
+/*footer*/
 
 .footer {
     position: fixed;
@@ -93,17 +99,19 @@ nav a{
     padding-bottom: 30px;
 }
 
+/*portfolio*/
+
 .image1{
     position: relative;
 }
 
 .hangman {
-    border: 1px solid #cccccc;
+    border: 1px solid black;
 }
 
 #hangman {
     position: absolute;
-    bottom: 505px;
+    bottom: 976px;
     left: 1px;
     background-color: #4aaaa5;
     color: white;
@@ -118,7 +126,7 @@ nav a{
 }
 
 .RPG {
-    border: 1px solid #cccccc;    
+    border: 1px solid black;    
 }
 
 #RPG {
@@ -134,14 +142,52 @@ nav a{
 .image3{
     position: relative;
     bottom: 215px;
-
 }
 
 .trivia-game {
-    border: 1px solid #cccccc;
+    border: 1px solid black;
 }
 
 #trivia-game {
+    position: absolute;
+    bottom: 40px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.image4 {
+    position: relative;
+    bottom: 448px;
+    left: 330px;
+}
+
+.rutgers {
+    border: 1px solid black;
+}
+
+#rutgers {
+    position: absolute;
+    bottom: 40px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.image5 {
+    position: relative;
+    bottom: 430px;
+}
+
+.RPS {
+    border: 1px solid black;
+}
+
+#RPS {
     position: absolute;
     bottom: 40px;
     left: 1px;
