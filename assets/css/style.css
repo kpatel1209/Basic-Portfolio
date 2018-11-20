@@ -1,0 +1,238 @@
+body {
+    background-image: url(../images/background.png);
+    color: #777777;
+    line-height: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*header*/
+
+.main-header {
+    position: fixed;
+    z-index: 2;
+    top: 10px;
+    background: white;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    color: #ffffff;
+    background: #ffffff;
+    overflow: auto;
+}
+
+#logo {
+    float: left;
+    display: inline;
+    background: #4aaaa5;
+    color: white;
+    width: 225px;
+    text-align: center;
+    padding: 27px 0 27px 0;
+    margin: 0 0 0 -7px;
+}
+
+.logo .name {
+    padding: 8px 0 0 0;  
+}
+
+nav {
+    float: right;
+    width: 350px;
+    text-align: center;
+    padding: 27px 0px 25px 60px;
+}
+
+nav a{
+    clear: both;
+    color: #777777;
+    text-decoration: none;
+    margin: 0 0 0 30px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px
+}
+
+#main-section {
+    background: #ffffff;
+    margin-top: 130px;
+}
+
+/*about*/
+
+.content {
+    padding: 30px;
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 20px;
+}
+
+/*footer*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    border-top: 10px;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding-bottom: 30px;
+}
+
+/*portfolio*/
+
+.image1{
+    position: relative;
+}
+
+.hangman {
+    border: 1px solid black;
+}
+
+#hangman {
+    position: absolute;
+    bottom: 42px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.image2{
+    position: relative;
+    left: 330px;
+    bottom: 233px;
+}
+
+.RPG {
+    border: 1px solid black;    
+}
+
+#RPG {
+    position: absolute;
+    bottom: 42px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.image3{
+    position: relative;
+    bottom: 215px;
+}
+
+.trivia-game {
+    border: 1px solid black;
+}
+
+#trivia-game {
+    position: absolute;
+    bottom: 40px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.image4 {
+    position: relative;
+    bottom: 448px;
+    left: 330px;
+}
+
+.rutgers {
+    border: 1px solid black;
+}
+
+#rutgers {
+    position: absolute;
+    bottom: 40px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.image5 {
+    position: relative;
+    bottom: 430px;
+}
+
+.RPS {
+    border: 1px solid black;
+}
+
+#RPS {
+    position: absolute;
+    bottom: 40px;
+    left: 1px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.portfolio {
+    padding: 30px;
+    height: 900px;
+}
+        
+/*contact*/
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 30px 0 0;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message {
+    width: 100%;
+    height: 150px;
+    padding: 10px 30px 0 0;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
