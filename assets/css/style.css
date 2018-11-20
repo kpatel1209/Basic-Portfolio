@@ -200,3 +200,39 @@ h2 {
 .portfolio {
     padding: 30px;
     height: 900px;
+}
+        
+/*contact*/
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 30px 0 0;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message {
+    width: 100%;
+    height: 150px;
+    padding: 10px 30px 0 0;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
